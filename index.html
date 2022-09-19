@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="img/logoweb1.ico">
 
-    <title>Kantor Hukum Kusuma | Prayoga Partners</title>
+    <title>Kantor Hukum Kusuma | Prayoga & Partners</title>
   </head>
 
   <body id="home" class="scrollspy">
@@ -23,7 +23,7 @@
         <div class="container">
           <div class="nav-wrapper">
             <a href="#home" class="brand-logo">
-              <img src="img/logo22.png" alt="" width="110" height="60">
+              <img src="img/logo22.png" alt="" width="120" height="60">
             </a>
             <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
@@ -99,19 +99,6 @@
               <p>Mewujudkan pelayanan hukum yang Profesional, Mengedepankan penegakan undang-undang, kode etik Profesi, norma, dan moral</p>
             </div>
           </div>
-          <!-- <div class="col m6 light">
-            <p>LAW CONSULTANT</p>
-            <div class="progress">
-              <div class="determinate blue" style="width: 95%"></div>
-            </div>
-            <p>ADVOCATES</p>
-            <div class="progress">
-              <div class="determinate blue" style="width: 85%"></div>
-            </div>
-            <p>LEGAL CONSULTANTS</p>
-            <div class="progress">
-              <div class="determinate blue" style="width: 90%"></div>
-            </div> -->
           </div>
         </div>
       </div>
@@ -124,17 +111,14 @@
       <div class="container clients">
         <h3 class="center light white-text">Our Clients</h3>
         <div class="row">
-          <div class="col m3 s12 center">
-            <img src="img/clients/gojek.png" />
-          </div>
-          <div class="col m3 s12 center">
-            <img src="img/clients/tokopedia.png" />
-          </div>
-          <div class="col m3 s12 center">
-            <img src="img/clients/traveloka.png" />
-          </div>
-          <div class="col m3 s12 center">
+          <div class="col m4 s12 center">
             <img src="img/clients/raja-gadai-logo.png" />
+          </div>
+          <div class="col m4 s12 center">
+            <img src="img/clients/NeoParking.png" />
+          </div>
+          <div class="col m4 s12 center">
+            <img src="img/clients/DutaPratiwi.png" />
           </div>
         </div>
       </div>
@@ -206,19 +190,19 @@
         <h3 class="light center gray-text text-darken-3">Portfolio</h3>
         <div class="row">
           <div class="col m3 s12">
-            <img src="img/portfolio/1.png" class="responsive-img materialboxed" />
+            <img src="img/portfolio/logo22.png" class="responsive-img materialboxed" />
           </div>
           <div class="col m3 s12">
-            <img src="img/portfolio/2.png" class="responsive-img materialboxed" />
+            <img src="img/portfolio/12.jpg" class="responsive-img materialboxed" />
           </div>
           <div class="col m3 s12">
-            <img src="img/portfolio/3.png" class="responsive-img materialboxed" />
+            <img src="img/portfolio/11.jpg" class="responsive-img materialboxed" />
           </div>
           <div class="col m3 s12">
-            <img src="img/portfolio/4.png" class="responsive-img materialboxed" />
+            <img src="img/portfolio/logo22.png" class="responsive-img materialboxed" />
           </div>
         </div>
-        <div class="row">
+        <!-- <div class="row">
           <div class="col m3 s12">
             <img src="img/portfolio/5.png" class="responsive-img materialboxed" />
           </div>
@@ -230,7 +214,7 @@
           </div>
           <div class="col m3 s12">
             <img src="img/portfolio/2.png" class="responsive-img materialboxed" />
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -244,14 +228,15 @@
             <div class="card-panel blue darken-2 center white-text">
               <i class="material-icons">email</i>
               <h5></h5>
-              <p>ArifRahman@gmail.com<br> Kusuma@gmail.com</p>
+              <p>ArifRahmanPrayoga@gmail.com</p>
             </div>
             <ul class="collection with-header">
               <li class="collection-header center"><i class="material-icons">room</i><h4>Our Office</h4></li>
-              <li class="collection-header">Jl. Morderland Ruko Costarica Ck. 1 No. 9</li>
-              <li class="collection-header">Kota Tangerang 15117</li>
-              <li class="collection-header">Banten, Indonesia</li>
-              <li class="collection-header"><i class="material-icons center">call</i>  0878 8237 5342</li>
+              <li class="collection-header">Ruko Costarica Ck. 1 No. 9</li>
+              <li class="collection-header">Jl. Modern Golf Raya, Kelapa Indah</li>
+              <li class="collection-header">Kota tangerang 15117</li>
+              <li class="collection-header"><i class="material-icons center">call</i>  021 2229 2676</li>
+              <li class="collection-header"><i class="material-icons center">phone_iphone</i>  0878 8237 5342</li>
             </ul>
           </div>
           <div class="col m7 s12">
@@ -272,10 +257,17 @@
                 </div>
                 <div class="input-field">
                   <textarea name="massage" id="massage" class="materialize-textarea"></textarea>
-                  <label for="massage">Massage</label>
+                  <label for="massage">message</label>
                 </div>
                 <button type="submit" class="btn blue darken-2 btn-kirim">Send</button>
-              </div>
+                <div class="preloader-wrapper small active hide btn-loading">
+                  <div class="spinner-layer spinner-blue-only">
+                    <div class="circle-clipper left">
+                      <div class="circle"></div>
+                    </div>
+                  </div>
+                </div>
+              </div> 
             </form>
           </div>
         </div>
@@ -325,12 +317,25 @@
       const form = document.forms['Email Subscribers']
       const btnKirim = document.querySelector('.btn-kirim');
       const btnLoading = document.querySelector('.btn-loading');
+      const myAlert = document.querySelector('my-alert');
 
 
       form.addEventListener('submit', e => {
         e.preventDefault();
+        // ketika tombol submite di klik
+        // tampilkan tombol loading, hilangkan tombol kirim
+        btnLoading.classList.toggle('hide');
+        btnKirim.classList.toggle('hide');
         fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-          .then(response => console.log('Success!', response))
+          .then(response => {
+            // tampilkan tombol kirim, hilangkan tombol loading
+            btnLoading.classList.toggle('hide');
+            btnKirim.classList.toggle('hide');
+            // reset form 
+            form.reset();
+            console.log('Success!', response);
+          })
+
           .catch(error => console.error('Error!', error.message))
       })
     </script>
