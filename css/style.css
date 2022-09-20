@@ -18,7 +18,8 @@
   filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.8));
 }
 
-section, footer {
+section,
+footer {
   padding: 20px;
 }
 
@@ -27,37 +28,32 @@ section, footer {
   position: absolute;
 }
 
-
 .slider h3 {
   font-size: 20px;
 }
 
-
-.contact strong{
+.contact strong {
   content: none;
 }
 
+/*  lawyer  */
+.lawyer {
+  background-color: #f1c668;
+}
 
-
-
-
+.services {
+  background-color: #f1c668;
+}
 
 
 
 /* Version Dekstop */
 @media (min-width: 768px) {
-  .slider h3{
+  .slider h3 {
     font-size: 45px;
   }
 
   .slider img {
     background-color: cover;
   }
-  
-
-
-
-
-
 }
-
