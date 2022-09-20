@@ -45,6 +45,9 @@ footer {
   background-color: #f1c668;
 }
 
+.about p {
+  text-align: center;
+}
 
 
 /* Version Dekstop */
@@ -56,4 +59,7 @@ footer {
   .slider img {
     background-color: cover;
   }
+
+
+
 }
