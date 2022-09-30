@@ -50,6 +50,13 @@ footer {
 }
 
 
+a.btn-floating img {
+  background-img : white;
+  border-radius: 80px;
+  width:100%;
+}
+
+
 /* Version Dekstop */
 @media (min-width: 768px) {
   .slider h3 {
